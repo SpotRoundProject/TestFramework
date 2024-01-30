@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "TestFramework_FastLane_Test"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "testing pod push TestFramework."
   # spec.description  = <<-DESC
   #                  DESC
