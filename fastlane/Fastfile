@@ -8,6 +8,6 @@ platform :ios do
 
   desc "pus podspec to cocoapods repo"
   lane :lane do
-    pod_push(path: "TestFramework.podspec", skip_import_validation: true, allow_warnings: true, verbose: true)
+    pod_push(path: "TestFramework_FastLane_Test.podspec", skip_import_validation: true, allow_warnings: true, verbose: true)
   end
 end

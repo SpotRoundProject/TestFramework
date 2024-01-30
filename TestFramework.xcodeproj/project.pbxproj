@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		B620703A2B6239C800F9B1AC /* TestFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = B62070392B6239C800F9B1AC /* TestFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6D56B4E2B68F4410020E620 /* Test.h in Headers */ = {isa = PBXBuildFile; fileRef = B6D56B4C2B68F4410020E620 /* Test.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6D56B4F2B68F4410020E620 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D56B4D2B68F4410020E620 /* Test.m */; };
+		B6D56B522B68F5570020E620 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D56B502B68F5570020E620 /* ViewController.m */; };
+		B6D56B532B68F5570020E620 /* ViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B6D56B512B68F5570020E620 /* ViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6D56B552B68F57C0020E620 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D56B542B68F57C0020E620 /* Main.storyboard */; };
 		E649DA6DE83300B837BFCBE7 /* Pods_TestFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAEC6ED0AC507B2967A00987 /* Pods_TestFramework.framework */; };
 /* End PBXBuildFile section */
 
@@ -16,6 +21,11 @@
 		4C7D503DB2E70A6716B14C91 /* Pods-TestFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestFramework.release.xcconfig"; path = "Target Support Files/Pods-TestFramework/Pods-TestFramework.release.xcconfig"; sourceTree = "<group>"; };
 		B62070362B6239C800F9B1AC /* TestFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B62070392B6239C800F9B1AC /* TestFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestFramework.h; sourceTree = "<group>"; };
+		B6D56B4C2B68F4410020E620 /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Test.h; path = "/Users/test/Desktop/git testframweoek/TestFramework/TestFramework/Test.h"; sourceTree = "<absolute>"; };
+		B6D56B4D2B68F4410020E620 /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		B6D56B502B68F5570020E620 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = TestFramework/ViewController.m; sourceTree = SOURCE_ROOT; };
+		B6D56B512B68F5570020E620 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B6D56B542B68F57C0020E620 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		FAEC6ED0AC507B2967A00987 /* Pods_TestFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -37,7 +47,6 @@
 				2114991581BFE3533FBFEDD8 /* Pods-TestFramework.debug.xcconfig */,
 				4C7D503DB2E70A6716B14C91 /* Pods-TestFramework.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -70,7 +79,12 @@
 		B62070382B6239C800F9B1AC /* TestFramework */ = {
 			isa = PBXGroup;
 			children = (
+				B6D56B542B68F57C0020E620 /* Main.storyboard */,
+				B6D56B512B68F5570020E620 /* ViewController.h */,
+				B6D56B502B68F5570020E620 /* ViewController.m */,
 				B62070392B6239C800F9B1AC /* TestFramework.h */,
+				B6D56B4C2B68F4410020E620 /* Test.h */,
+				B6D56B4D2B68F4410020E620 /* Test.m */,
 			);
 			path = TestFramework;
 			sourceTree = "<group>";
@@ -82,7 +96,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6D56B4E2B68F4410020E620 /* Test.h in Headers */,
 				B620703A2B6239C800F9B1AC /* TestFramework.h in Headers */,
+				B6D56B532B68F5570020E620 /* ViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +161,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6D56B552B68F57C0020E620 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +197,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6D56B522B68F5570020E620 /* ViewController.m in Sources */,
+				B6D56B4F2B68F4410020E620 /* Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +258,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -297,7 +316,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
